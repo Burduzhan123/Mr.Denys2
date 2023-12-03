@@ -30,8 +30,8 @@ console.log(1 < 2 < 3)
 console.log(3 ** 2 / 3)
 console.log(1 < 2 > 3)
 console.log((+null == false) < 1)
-var condition = false && true || true
-var condition = false && (true || true)
+console.log(false && true || true)
+console.log(false && (true || true))
 console.log(+null == false) < 1 ** 5
 console.log('foo'+ + +'bar')
 console.log(+null)
